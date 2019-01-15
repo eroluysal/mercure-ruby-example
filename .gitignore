@@ -1,0 +1,10 @@
+# directories
+# dots
+/.bundle
+/.vendor
+
+# files
+/bin
+
+# extension
+*.rbc

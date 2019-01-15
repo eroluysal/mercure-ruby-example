@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  mercure:
+    environment:
+      JWT_KEY: secret
+    image: dunglas/mercure
+    ports:
+      - 3314:80/tcp
